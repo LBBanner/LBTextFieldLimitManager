@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DEC7FA61DC82DAD006983B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC7FA51DC82DAD006983B7 /* main.m */; };
+		3DEC7FA91DC82DAD006983B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC7FA81DC82DAD006983B7 /* AppDelegate.m */; };
+		3DEC7FAF1DC82DAD006983B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC7FAD1DC82DAD006983B7 /* Main.storyboard */; };
+		3DEC7FB11DC82DAD006983B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC7FB01DC82DAD006983B7 /* Assets.xcassets */; };
+		3DEC7FB41DC82DAD006983B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DEC7FB21DC82DAD006983B7 /* LaunchScreen.storyboard */; };
+		3DEC7FBF1DC82DAD006983B7 /* LBTextFieldLimitManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC7FBE1DC82DAD006983B7 /* LBTextFieldLimitManagerTests.m */; };
+		3DEC7FCA1DC82DAD006983B7 /* LBTextFieldLimitManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC7FC91DC82DAD006983B7 /* LBTextFieldLimitManagerUITests.m */; };
+		3DEC7FDA1DC82E02006983B7 /* LBTextFieldLimitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC7FD91DC82E02006983B7 /* LBTextFieldLimitManager.m */; };
+		3DEC7FDD1DC82FD3006983B7 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC7FDC1DC82FD3006983B7 /* DemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DEC7FBB1DC82DAD006983B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DEC7F991DC82DAD006983B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DEC7FA01DC82DAD006983B7;
+			remoteInfo = LBTextFieldLimitManager;
+		};
+		3DEC7FC61DC82DAD006983B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DEC7F991DC82DAD006983B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DEC7FA01DC82DAD006983B7;
+			remoteInfo = LBTextFieldLimitManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DEC7FA11DC82DAD006983B7 /* LBTextFieldLimitManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBTextFieldLimitManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEC7FA51DC82DAD006983B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DEC7FA71DC82DAD006983B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DEC7FA81DC82DAD006983B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DEC7FAE1DC82DAD006983B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DEC7FB01DC82DAD006983B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DEC7FB31DC82DAD006983B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DEC7FB51DC82DAD006983B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEC7FBA1DC82DAD006983B7 /* LBTextFieldLimitManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBTextFieldLimitManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEC7FBE1DC82DAD006983B7 /* LBTextFieldLimitManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBTextFieldLimitManagerTests.m; sourceTree = "<group>"; };
+		3DEC7FC01DC82DAD006983B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEC7FC51DC82DAD006983B7 /* LBTextFieldLimitManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBTextFieldLimitManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEC7FC91DC82DAD006983B7 /* LBTextFieldLimitManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBTextFieldLimitManagerUITests.m; sourceTree = "<group>"; };
+		3DEC7FCB1DC82DAD006983B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEC7FD81DC82E02006983B7 /* LBTextFieldLimitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTextFieldLimitManager.h; sourceTree = "<group>"; };
+		3DEC7FD91DC82E02006983B7 /* LBTextFieldLimitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTextFieldLimitManager.m; sourceTree = "<group>"; };
+		3DEC7FDB1DC82FD3006983B7 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		3DEC7FDC1DC82FD3006983B7 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DEC7F9E1DC82DAD006983B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEC7FB71DC82DAD006983B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEC7FC21DC82DAD006983B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DEC7F981DC82DAD006983B7 = {
+			isa = PBXGroup;
+			children = (
+				3DEC7FA31DC82DAD006983B7 /* LBTextFieldLimitManager */,
+				3DEC7FBD1DC82DAD006983B7 /* LBTextFieldLimitManagerTests */,
+				3DEC7FC81DC82DAD006983B7 /* LBTextFieldLimitManagerUITests */,
+				3DEC7FA21DC82DAD006983B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DEC7FA21DC82DAD006983B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DEC7FA11DC82DAD006983B7 /* LBTextFieldLimitManager.app */,
+				3DEC7FBA1DC82DAD006983B7 /* LBTextFieldLimitManagerTests.xctest */,
+				3DEC7FC51DC82DAD006983B7 /* LBTextFieldLimitManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DEC7FA31DC82DAD006983B7 /* LBTextFieldLimitManager */ = {
+			isa = PBXGroup;
+			children = (
+				3DEC7FD71DC82DDF006983B7 /* LBTextFieldLimitManager */,
+				3DEC7FA71DC82DAD006983B7 /* AppDelegate.h */,
+				3DEC7FA81DC82DAD006983B7 /* AppDelegate.m */,
+				3DEC7FDB1DC82FD3006983B7 /* DemoViewController.h */,
+				3DEC7FDC1DC82FD3006983B7 /* DemoViewController.m */,
+				3DEC7FAD1DC82DAD006983B7 /* Main.storyboard */,
+				3DEC7FB01DC82DAD006983B7 /* Assets.xcassets */,
+				3DEC7FB21DC82DAD006983B7 /* LaunchScreen.storyboard */,
+				3DEC7FB51DC82DAD006983B7 /* Info.plist */,
+				3DEC7FA41DC82DAD006983B7 /* Supporting Files */,
+			);
+			path = LBTextFieldLimitManager;
+			sourceTree = "<group>";
+		};
+		3DEC7FA41DC82DAD006983B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DEC7FA51DC82DAD006983B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DEC7FBD1DC82DAD006983B7 /* LBTextFieldLimitManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DEC7FBE1DC82DAD006983B7 /* LBTextFieldLimitManagerTests.m */,
+				3DEC7FC01DC82DAD006983B7 /* Info.plist */,
+			);
+			path = LBTextFieldLimitManagerTests;
+			sourceTree = "<group>";
+		};
+		3DEC7FC81DC82DAD006983B7 /* LBTextFieldLimitManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DEC7FC91DC82DAD006983B7 /* LBTextFieldLimitManagerUITests.m */,
+				3DEC7FCB1DC82DAD006983B7 /* Info.plist */,
+			);
+			path = LBTextFieldLimitManagerUITests;
+			sourceTree = "<group>";
+		};
+		3DEC7FD71DC82DDF006983B7 /* LBTextFieldLimitManager */ = {
+			isa = PBXGroup;
+			children = (
+				3DEC7FD81DC82E02006983B7 /* LBTextFieldLimitManager.h */,
+				3DEC7FD91DC82E02006983B7 /* LBTextFieldLimitManager.m */,
+			);
+			path = LBTextFieldLimitManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DEC7FA01DC82DAD006983B7 /* LBTextFieldLimitManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEC7FCE1DC82DAD006983B7 /* Build configuration list for PBXNativeTarget "LBTextFieldLimitManager" */;
+			buildPhases = (
+				3DEC7F9D1DC82DAD006983B7 /* Sources */,
+				3DEC7F9E1DC82DAD006983B7 /* Frameworks */,
+				3DEC7F9F1DC82DAD006983B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBTextFieldLimitManager;
+			productName = LBTextFieldLimitManager;
+			productReference = 3DEC7FA11DC82DAD006983B7 /* LBTextFieldLimitManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DEC7FB91DC82DAD006983B7 /* LBTextFieldLimitManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEC7FD11DC82DAD006983B7 /* Build configuration list for PBXNativeTarget "LBTextFieldLimitManagerTests" */;
+			buildPhases = (
+				3DEC7FB61DC82DAD006983B7 /* Sources */,
+				3DEC7FB71DC82DAD006983B7 /* Frameworks */,
+				3DEC7FB81DC82DAD006983B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DEC7FBC1DC82DAD006983B7 /* PBXTargetDependency */,
+			);
+			name = LBTextFieldLimitManagerTests;
+			productName = LBTextFieldLimitManagerTests;
+			productReference = 3DEC7FBA1DC82DAD006983B7 /* LBTextFieldLimitManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DEC7FC41DC82DAD006983B7 /* LBTextFieldLimitManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEC7FD41DC82DAD006983B7 /* Build configuration list for PBXNativeTarget "LBTextFieldLimitManagerUITests" */;
+			buildPhases = (
+				3DEC7FC11DC82DAD006983B7 /* Sources */,
+				3DEC7FC21DC82DAD006983B7 /* Frameworks */,
+				3DEC7FC31DC82DAD006983B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DEC7FC71DC82DAD006983B7 /* PBXTargetDependency */,
+			);
+			name = LBTextFieldLimitManagerUITests;
+			productName = LBTextFieldLimitManagerUITests;
+			productReference = 3DEC7FC51DC82DAD006983B7 /* LBTextFieldLimitManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DEC7F991DC82DAD006983B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ling;
+				TargetAttributes = {
+					3DEC7FA01DC82DAD006983B7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3DEC7FB91DC82DAD006983B7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DEC7FA01DC82DAD006983B7;
+					};
+					3DEC7FC41DC82DAD006983B7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DEC7FA01DC82DAD006983B7;
+					};
+				};
+			};
+			buildConfigurationList = 3DEC7F9C1DC82DAD006983B7 /* Build configuration list for PBXProject "LBTextFieldLimitManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DEC7F981DC82DAD006983B7;
+			productRefGroup = 3DEC7FA21DC82DAD006983B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DEC7FA01DC82DAD006983B7 /* LBTextFieldLimitManager */,
+				3DEC7FB91DC82DAD006983B7 /* LBTextFieldLimitManagerTests */,
+				3DEC7FC41DC82DAD006983B7 /* LBTextFieldLimitManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DEC7F9F1DC82DAD006983B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEC7FB41DC82DAD006983B7 /* LaunchScreen.storyboard in Resources */,
+				3DEC7FB11DC82DAD006983B7 /* Assets.xcassets in Resources */,
+				3DEC7FAF1DC82DAD006983B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEC7FB81DC82DAD006983B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEC7FC31DC82DAD006983B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DEC7F9D1DC82DAD006983B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEC7FDA1DC82E02006983B7 /* LBTextFieldLimitManager.m in Sources */,
+				3DEC7FA91DC82DAD006983B7 /* AppDelegate.m in Sources */,
+				3DEC7FA61DC82DAD006983B7 /* main.m in Sources */,
+				3DEC7FDD1DC82FD3006983B7 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEC7FB61DC82DAD006983B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEC7FBF1DC82DAD006983B7 /* LBTextFieldLimitManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEC7FC11DC82DAD006983B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DEC7FCA1DC82DAD006983B7 /* LBTextFieldLimitManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DEC7FBC1DC82DAD006983B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DEC7FA01DC82DAD006983B7 /* LBTextFieldLimitManager */;
+			targetProxy = 3DEC7FBB1DC82DAD006983B7 /* PBXContainerItemProxy */;
+		};
+		3DEC7FC71DC82DAD006983B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DEC7FA01DC82DAD006983B7 /* LBTextFieldLimitManager */;
+			targetProxy = 3DEC7FC61DC82DAD006983B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DEC7FAD1DC82DAD006983B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DEC7FAE1DC82DAD006983B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DEC7FB21DC82DAD006983B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DEC7FB31DC82DAD006983B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DEC7FCC1DC82DAD006983B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DEC7FCD1DC82DAD006983B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DEC7FCF1DC82DAD006983B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LBTextFieldLimitManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.LBTextFieldLimitManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DEC7FD01DC82DAD006983B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LBTextFieldLimitManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.LBTextFieldLimitManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DEC7FD21DC82DAD006983B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LBTextFieldLimitManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.LBTextFieldLimitManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBTextFieldLimitManager.app/LBTextFieldLimitManager";
+			};
+			name = Debug;
+		};
+		3DEC7FD31DC82DAD006983B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LBTextFieldLimitManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.LBTextFieldLimitManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBTextFieldLimitManager.app/LBTextFieldLimitManager";
+			};
+			name = Release;
+		};
+		3DEC7FD51DC82DAD006983B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LBTextFieldLimitManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.LBTextFieldLimitManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LBTextFieldLimitManager;
+			};
+			name = Debug;
+		};
+		3DEC7FD61DC82DAD006983B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LBTextFieldLimitManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.LBTextFieldLimitManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LBTextFieldLimitManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DEC7F9C1DC82DAD006983B7 /* Build configuration list for PBXProject "LBTextFieldLimitManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEC7FCC1DC82DAD006983B7 /* Debug */,
+				3DEC7FCD1DC82DAD006983B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DEC7FCE1DC82DAD006983B7 /* Build configuration list for PBXNativeTarget "LBTextFieldLimitManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEC7FCF1DC82DAD006983B7 /* Debug */,
+				3DEC7FD01DC82DAD006983B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DEC7FD11DC82DAD006983B7 /* Build configuration list for PBXNativeTarget "LBTextFieldLimitManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEC7FD21DC82DAD006983B7 /* Debug */,
+				3DEC7FD31DC82DAD006983B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DEC7FD41DC82DAD006983B7 /* Build configuration list for PBXNativeTarget "LBTextFieldLimitManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DEC7FD51DC82DAD006983B7 /* Debug */,
+				3DEC7FD61DC82DAD006983B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DEC7F991DC82DAD006983B7 /* Project object */;
+}
